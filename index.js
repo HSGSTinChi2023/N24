@@ -270,6 +270,7 @@ function init() {
         if(document.getElementById(i.toString()).className == "box") {
             document.getElementById(i.toString()).innerHTML = Math.floor(Math.random() * 10);
             document.getElementById(i.toString()).addEventListener("click",handler);
+            document.getElementById(i.toString()).style.backgroundColor = "#ffffff";
             
             document.getElementById(i.toString()).addEventListener("mouseover",function(e) {
                 e.target.style.backgroundColor = "#178a39";
